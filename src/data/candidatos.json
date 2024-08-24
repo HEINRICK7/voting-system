@@ -1,4 +1,4 @@
-[
+{ "vereadores" :[
   {
     "nome": "ADARA AMARAL",
     "partido": "PP",
@@ -922,4 +922,33 @@
     },
     "imagem": "/assets/fwdoc.jpg"
   }
-]
+],
+"prefeitos": [
+    {
+      "nome": "JÔVE OLIVEIRA",
+      "partido": "Partido Dos Trabalhadores - PT",
+      "numero": "13",
+      "informacoes": {
+        "nomeCompleto": "JOVENILIA ALVES DE OLIVEIRA MONTEIRO"
+      },
+      "imagem": "/assets/jove.jpg"
+    },
+    {
+      "nome": "LUIZ MENEZES",
+      "partido": "Partido Social Democrático - PSD",
+      "numero": "55",
+      "informacoes": {
+        "nomeCompleto": "LUIZ CAVALCANTE E MENEZES"
+      },
+      "imagem": "/assets/lm.jpg"
+    },
+    {
+      "nome": "PAULO LIMEIRA",
+      "partido": "Avante - AVANTE",
+      "numero": "70",
+      "informacoes": {
+        "nomeCompleto": "PAULO ROBERTO LIMEIRA DOS SANTOS"
+      },
+      "imagem": "/assets/pl.jpg"
+    }
+  ]}
