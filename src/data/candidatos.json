@@ -1,0 +1,2026 @@
+[
+  {
+    "nome": "ADARA AMARAL",
+    "partido": "PP",
+    "numero": "11444",
+    "informacoes": {
+      "nomeCompleto": "ADARA PATRÍCIA DE SOUSA AMARAL"
+    },
+    "imagem": "/assets/hadara.jpg"
+  },
+  {
+    "nome": "ALAN OSÓRIO",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13123",
+    "informacoes": {
+      "nomeCompleto": "ALAN TEIXEIRA OSÓRIO"
+    },
+    "imagem": "/assets/alan_o.jpg"
+  },
+  {
+    "nome": "ALEXANDRE MADRI",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13777",
+    "informacoes": {
+      "nomeCompleto": "CARLOS ALEXANDRE SILVA"
+    },
+    "imagem": "/assets/madre.jpg"
+  },
+  {
+    "nome": "ANDREA AZEVEDO",
+    "partido": "MDB",
+    "numero": "15555",
+    "informacoes": {
+      "nomeCompleto": "ANDREA KARINA DE AZEVEDO"
+    },
+    "imagem": "/assets/andrea_a.jpg"
+  },
+  {
+    "nome": "ANTÔNIO FILHO",
+    "partido": "PSD",
+    "numero": "55789",
+    "informacoes": {
+      "nomeCompleto": "ANTÔNIO ALVES DE OLIVEIRA FILHO"
+    },
+    "imagem": "/assets/antonio_filho.jpg"
+  },
+  {
+    "nome": "ARIÓ",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23333",
+    "informacoes": {
+      "nomeCompleto": "AEROLINO FONTINELE DE BRITO"
+    },
+    "imagem": "/assets/areo.jpg"
+  },
+  {
+    "nome": "BACAÍ DA RUA DE CIMA",
+    "partido": "MDB",
+    "numero": "15000",
+    "informacoes": {
+      "nomeCompleto": "FRANCISCO DAS CHAGAS PEREIRA DA SILVA"
+    },
+    "imagem": "/assets/bacai.jpg"
+  },
+  {
+    "nome": "BATATINHA",
+    "partido": "MDB",
+    "numero": "15789",
+    "informacoes": {
+      "nomeCompleto": "EDVALDO MARTINHO FAUSTO"
+    },
+    "imagem": "/assets/batatinha.jpg"
+  },
+  {
+    "nome": "BATISTA DO CAMURU",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23123",
+    "informacoes": {
+      "nomeCompleto": "ANTONIO SOARES BASTISTA"
+    },
+    "imagem": "/assets/camuru.jpg"
+  },
+  {
+    "nome": "BEATRICE PIMENTEL",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13555",
+
+    "informacoes": {
+      "nomeCompleto": "BEATRICE PIMENTEL CAVALCANTE BRITO"
+    },
+    "imagem": "/assets/bea_pi.jpg"
+  },
+  {
+    "nome": "BERNADHTE PESSOA",
+    "partido": "PP",
+    "numero": "11024",
+    "informacoes": {
+      "nomeCompleto": "BERNADHTE PESSOA"
+    },
+    "imagem": "/assets/berna.jpg"
+  },
+  {
+    "nome": "BRUNA LUANA",
+    "partido": "MDB",
+    "numero": "15345",
+    "informacoes": {
+      "nomeCompleto": "BRUNA LUANA DA SILVA COSTA"
+    },
+    "imagem": "/assets/bruna_lu.jpg"
+  },
+  {
+    "nome": "CARECA DA FURNAS",
+    "partido": "PP",
+    "numero": "11110",
+    "informacoes": {
+      "nomeCompleto": "JOÃO BATISTA PIRES"
+    },
+    "imagem": "/assets/careca.jpg"
+  },
+  {
+    "nome": "CHAGUINHA SILVA",
+    "partido": "MDB",
+    "numero": "15444",
+    "informacoes": {
+      "nomeCompleto": "FRANCISCA DAS CHAGAS SILVA"
+    },
+    "imagem": "/assets/chaguinha_s.jpg"
+  },
+  {
+    "nome": "CHICO CORINTO",
+    "partido": "PP",
+    "numero": "11000",
+    "informacoes": {
+      "nomeCompleto": "FRANCISCO DA SILVA OLIVEIRA"
+    },
+    "imagem": "/assets/chico_c.jpg"
+  },
+  {
+    "nome": "CHIQUINHO DO CAIXA D'ÁGUA",
+    "partido": "PDT",
+    "numero": "12789",
+    "informacoes": {
+      "nomeCompleto": "FRANCISCO GOMES DE SOUSA"
+    },
+    "imagem": "/assets/chico_caixa.jpg"
+  },
+  {
+    "nome": "CÍCERO DIAS",
+    "partido": "PDT",
+    "numero": "12777",
+    "informacoes": {
+      "nomeCompleto": "CÍCERO EVANGELISTA DIAS"
+    },
+    "imagem": "/assets/cisero.jpg"
+  },
+  {
+    "nome": "CINTHIA RESENDE",
+    "partido": "PDT",
+    "numero": "12000",
+    "informacoes": {
+      "nomeCompleto": "CINTHIA CRISTINA DE RESENDE SOUSA SANCHES"
+    },
+    "imagem": "/assets/cintia_re.jpg"
+  },
+  {
+    "nome": "CINTIA ANDREA",
+    "partido": "REPUBLICANOS",
+    "numero": "10100",
+    "informacoes": {
+      "nomeCompleto": "CINTIA ANDREIA DE FREITAS DA SILVA"
+    },
+    "imagem": "/assets/cintia_an.jpeg"
+  },
+  {
+    "nome": "CLÁUDIO DO SERRANO",
+    "partido": "MDB",
+    "numero": "15666",
+    "informacoes": {
+      "nomeCompleto": "CLAUDIO JOSE DE SOUSA"
+    },
+    "imagem": "/assets/claudio_se.jpg"
+  },
+  {
+    "nome": "CONCEIÇÃO CASTRO",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23111",
+    "informacoes": {
+      "nomeCompleto": "MARIA DA CONCEIÇÃO CASTRO E REZENDE MONTE"
+    },
+    "imagem": "/assets/con_cas.jpg"
+  },
+  {
+    "nome": "CORRETOR JULIO CESAR",
+    "partido": "MDB",
+    "numero": "15999",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "JULIO CESAR DA SILVA SOARES"
+    },
+    "imagem": "/assets/corretor.jpg"
+  },
+  {
+    "nome": "CRISTIANE CARDOSO",
+    "partido": "PSD",
+    "numero": "55333",
+    "informacoes": {
+      "nomeCompleto": "CRISTIANE DA SILVA CARDOSO"
+    },
+    "imagem": "/assets/cristina_c.jpg"
+  },
+  {
+    "nome": "DAN MOTOS",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23777",
+    "informacoes": {
+      "nomeCompleto": "DANILO DE SOUSA MENDES"
+    },
+    "imagem": "/assets/dan.jpg"
+  },
+  {
+    "nome": "DENILSON NASCIMENTO",
+    "partido": "PSD",
+    "numero": "55888",
+    "informacoes": {
+      "nomeCompleto": "DENILSON DO NASCIMENTO FERREIRA"
+    },
+    "imagem": "/assets/deni_na.jpg"
+  },
+  {
+    "nome": "DÊNIS SALES",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13300",
+    "informacoes": {
+      "nomeCompleto": "FRANCISCO DÊNIS DE BRITO CARVALHO"
+    },
+    "imagem": "/assets/deni_sa.jpg"
+  },
+  {
+    "nome": "DIÓGENES CRUZ",
+    "partido": "PSD",
+    "numero": "55800",
+    "informacoes": {
+      "nomeCompleto": "DIÓGENES BENÍCIO DE MELO CRUZ"
+    },
+    "imagem": "/assets/di_cruz.jpg"
+  },
+  {
+    "nome": "DOMINGÃO",
+    "partido": "PSD",
+    "numero": "55000",
+    "informacoes": {
+      "nomeCompleto": "DOMINGOS GOMES DE CARVALHO"
+    },
+    "imagem": "/assets/domi.jpg"
+  },
+  {
+    "nome": "DOWGLAS LEONARDO",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13999",
+    "informacoes": {
+      "nomeCompleto": "DOWGLAS BARBOZA CARVALHO LEONARDO"
+    },
+    "imagem": "/assets/dl.jpg"
+  },
+  {
+    "nome": "DR GILBERTO MOREIRA",
+    "partido": "PSD",
+    "numero": "55500",
+    "informacoes": {
+      "nomeCompleto": "GILBERTO MOREIRA DE SOUSA"
+    },
+    "imagem": "/assets/gms.jpg"
+  },
+  {
+    "nome": "DR PINTO",
+    "partido": "PP",
+    "numero": "11789",
+    "informacoes": {
+      "nomeCompleto": "JOSÉ PINTO DE MESQUITA"
+    },
+    "imagem": "/assets/dp.jpg"
+  },
+  {
+    "nome": "DUDÉ",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13456",
+    "informacoes": {
+      "nomeCompleto": "JOSÉ DE SOUSA LUSTOSA"
+    },
+    "imagem": "/assets/dude.jpg"
+  },
+  {
+    "nome": "EDILSON LEITE",
+    "partido": "PDT",
+    "numero": "12111",
+    "informacoes": {
+      "nomeCompleto": "EDILSON NASCIMENTO LEITE"
+    },
+    "imagem": "/assets/el.jpeg"
+  },
+  {
+    "nome": "EDILSON LUSTOSA",
+    "partido": "REPUBLICANOS",
+    "numero": "10789",
+    "informacoes": {
+      "nomeCompleto": "EDILSON SOUSA LUSTOSA"
+    },
+    "imagem": "/assets/ell.jpg"
+  },
+  {
+    "nome": "ELDENIS BARBOSA",
+    "partido": "MDB",
+    "numero": "15222",
+    "informacoes": {
+      "nomeCompleto": "ELDENIS BARBOSA AMANCIO"
+    },
+    "imagem": "/assets/eba.jpg"
+  },
+  {
+    "nome": "ELISÂNGELA NASCIMENTO",
+    "partido": "REPUBLICANOS",
+    "numero": "10888",
+    "informacoes": {
+      "nomeCompleto": "ELISANGELA DO NASCIMENTO SOUSA"
+    },
+    "imagem": "/assets/ens.jpg"
+  },
+  {
+    "nome": "ELVIS DIONES",
+    "partido": "PDT",
+    "numero": "12222",
+    "informacoes": {
+      "nomeCompleto": "ELVIS DIONES DE SOUZA CARVALHO"
+    },
+    "imagem": "/assets/eds.jpg"
+  },
+  {
+    "nome": "EMÍLIA MILENA",
+    "partido": "PSD",
+    "numero": "55222",
+    "informacoes": {
+      "nomeCompleto": "EMILIA MILENA SOUSA GOMES"
+    },
+    "imagem": "/assets/emsg.jpg"
+  },
+  {
+    "nome": "ENFERMEIRA JULIANNY",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13222",
+    "informacoes": {
+      "nomeCompleto": "JULIANNY DO NASCIMENTO BARBOSA"
+    },
+    "imagem": "/assets/jnb.jpg"
+  },
+  {
+    "nome": "EULER MONTEIRO",
+    "partido": "PDT",
+    "numero": "12555",
+    "informacoes": {
+      "nomeCompleto": "EULER NOGUEIRA LIMA SOBRINHO"
+    },
+    "imagem": "/assets/enls.jpg"
+  },
+  {
+    "nome": "EVALDA RAMOS",
+    "partido": "PSD",
+    "numero": "55777",
+    "informacoes": {
+      "nomeCompleto": "MARIA EVALDA ALVES RAMOS"
+    },
+    "imagem": "/assets/mear.jpg"
+  },
+  {
+    "nome": "FABIANO FREITAS",
+    "partido": "REPUBLICANOS",
+    "numero": "10555",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "FCA EVA",
+    "partido": "PP",
+    "numero": "11113",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "FILHO DO PRADO",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13111",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "FRANCISCO DAMASCENO",
+    "partido": "REPUBLICANOS",
+    "numero": "10234",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "GILBERTO EVENTOS",
+    "partido": "PSD",
+    "numero": "55123",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "GILVAN CARTEIRO",
+    "partido": "MDB",
+    "numero": "15678",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "GONZAGA DO PRADO",
+    "partido": "MDB",
+    "numero": "15234",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "GONZAGUINHA DO BINGO",
+    "partido": "REPUBLICANOS",
+    "numero": "10123",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "INDIRA MELO",
+    "partido": "PDT",
+    "numero": "12200",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "JANETE AMARAL",
+    "partido": "REPUBLICANOS",
+    "numero": "10111",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "LIARA MEDEIROS",
+    "partido": "PP",
+    "numero": "11321",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "LINDALVA MOURA",
+    "partido": "PP",
+    "numero": "11333",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "LINDOMAR",
+    "partido": "PSD",
+    "numero": "55999",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "LOURA",
+    "partido": "MDB",
+    "numero": "15111",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "LUIS CARLOS",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13234",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "LUIZ LOURENÇO",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23555",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "MÃE DJENANE TABAJARA",
+    "partido": "PDT",
+    "numero": "12123",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "MAIRAN",
+    "partido": "REPUBLICANOS",
+    "numero": "10222",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "MANIM EMILIANO",
+    "partido": "REPUBLICANOS",
+    "numero": "10456",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "MARCELA CRISTINA",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23343",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "MARIA IRIANE",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23610",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "MARLENE MELO",
+    "partido": "MDB",
+    "numero": "15888",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "MAURIN BRITO",
+    "partido": "PP",
+    "numero": "11112",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "MAURO FURTADO",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23511",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "MENANDRO BRITO",
+    "partido": "PSD",
+    "numero": "55555",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "NALVINHA MELO",
+    "partido": "PDT",
+    "numero": "12345",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "NAYLA BARBOSA",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13333",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "NENÉM CALÇADOS",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13444",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PAPINHA MENDES",
+    "partido": "MDB",
+    "numero": "15123",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PATRÍCIA LIMA",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13100",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PAULO ANDRADE",
+    "partido": "MDB",
+    "numero": "15456",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PAULO EUGENIO",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23000",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PAVÃO",
+    "partido": "PDT",
+    "numero": "12007",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PEDIM DE AÇÚCAR",
+    "partido": "PDT",
+    "numero": "12888",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PROF ABRAÃO",
+    "partido": "MDB",
+    "numero": "15333",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PROF APARECIDA",
+    "partido": "PSD",
+    "numero": "55678",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PROFESSOR CASTELO",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13500",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PROFESSOR DIDEKA",
+    "partido": "PP",
+    "numero": "11124",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "PROFESSOR LUCIFRAN",
+    "partido": "PDT",
+    "numero": "12300",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "RAIMUNDO BALA SECA",
+    "partido": "PP",
+    "numero": "11012",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "RAUL SOARES",
+    "partido": "PSD",
+    "numero": "55456",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "REMÉDIOS LOPES",
+    "partido": "PDT",
+    "numero": "12444",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "REYNOLDS",
+    "partido": "PDT",
+    "numero": "12333",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "ROBERVAL RAMOS",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13233",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "RODOLFO VALE",
+    "partido": "PP",
+    "numero": "11999",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "ROSA HELENA LESSA",
+    "partido": "PP",
+    "numero": "11122",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "SERJÃO DA COMUNICAÇÃO",
+    "partido": "REPUBLICANOS",
+    "numero": "10000",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "SOCORRO NASCIMENTO",
+    "partido": "PSD",
+    "numero": "55444",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "SONY ANDERSON",
+    "partido": "PP",
+    "numero": "11111",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "SOZZA DA FORMOSA",
+    "partido": "REPUBLICANOS",
+    "numero": "10333",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "SUED MOREIRA",
+    "partido": "REPUBLICANOS",
+    "numero": "10101",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "SYSTEMA GRILL",
+    "partido": "REPUBLICANOS",
+    "numero": "10777",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "TIA LEILA",
+    "partido": "PP",
+    "numero": "11123",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "TIÇO LIMA",
+    "partido": "PDT",
+    "numero": "12147",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "TIZÃO MOTOS",
+    "partido": "PSD",
+    "numero": "55111",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "VALDINAR DO FRANGO",
+    "partido": "MDB",
+    "numero": "15777",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "VALDINER SOUSA",
+    "partido": "PDT",
+    "numero": "12999",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "VALDIVIELSO FILHO",
+    "partido": "PP",
+    "numero": "11456",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "VANESSINHA MONTEIRO",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13213",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "VAVÁ",
+    "partido": "Federação PSDB CIDADANIA(PSDB/CIDADANIA)",
+    "numero": "23222",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  },
+  {
+    "nome": "WILLIAN DA LOTO",
+    "partido": "Federação BRASIL DA ESPERANÇA - FE BRASIL(PT/PC do B/PV)",
+    "numero": "13000",
+    "localidade": {
+      "latitude": 0,
+      "longitude": 0
+    },
+    "informacoes": {
+      "nomeCompleto": "",
+      "dataNascimento": "",
+      "genero": "",
+      "identidadeGenero": "",
+      "corRaca": "",
+      "etniaIndigena": "",
+      "quilombola": "",
+      "estadoCivil": "",
+      "ocupacao": "",
+      "nacionalidade": "",
+      "naturalidade": "",
+      "candidatoReeleicao": "",
+      "PartidoIsolado": "",
+      "grauInstrucao": "",
+      "limiteGastos": ""
+    },
+    "imagem": "/assets/placeholder.jpg"
+  }
+]
