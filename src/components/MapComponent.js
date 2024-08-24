@@ -239,10 +239,107 @@ const MapComponent = () => {
     secoes: [103, 270],
   };
 
+  const localDetailsCampinas = {
+    endereco: "Campinas",
+    zona: 11,
+    secoes: [103, 270],
+  };
+
+  const localDetailsODJD = {
+    endereco: "Olho D'àgua dos João Domingos",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsAngicalI = {
+    endereco: "AngicalI",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsAngicalII = {
+    endereco: "AngicalII",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsAngicalIII = {
+    endereco: "AngicalIII",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsAssentamentoSãoLuiz = {
+    endereco: "Assentamento São Luiz",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsQuebradas = {
+    endereco: "Quebradas",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsVereda = {
+    endereco: "Vereda",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsCurrais = {
+    endereco: "Currais Novos",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsSatisfeito = {
+    endereco: "Satisfeito",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsCortada = {
+    endereco: "Cortada",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsMatoes = {
+    endereco: "Matões",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsUmburana = {
+    endereco: "Matões",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsSacoD = {
+    endereco: "Saco dos Dionísios",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsCarnaubas = {
+    endereco: "Carnaubas",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsBelaVista = {
+    endereco: "Bela Vista",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsVarzea = {
+    endereco: "Várzea",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsVarzeaI = {
+    endereco: "Várzea I",
+    zona: 11,
+    secoes: [103, 270],
+  };
+  const localDetailsMalhadinha = {
+    endereco: "Malhadinha",
+    zona: 11,
+    secoes: [103, 270],
+  };
+
   return (
     <MapContainer
       center={[-4.2715, -41.7769]}
-      zoom={12}
+      zoom={10}
       style={{ height: "80vh", width: "100%" }}
     >
       <LayersControl position="topright">
@@ -272,7 +369,6 @@ const MapComponent = () => {
         </Overlay>
 
         {/* Marcador em Furnas */}
-        {/* Marcador em Furnas */}
         <Overlay checked name="Furnas Marker">
           <Marker position={[-4.2712, -41.8821]} icon={customMarker}>
             <Tooltip direction="top" offset={[0, -25]} permanent>
@@ -288,7 +384,7 @@ const MapComponent = () => {
           </Marker>
         </Overlay>
         <Overlay name="Furnas Circle">
-          <Circle center={[-4.2712, -41.8821]} radius={2000} />
+          <Circle center={[-4.2712, -41.8821]} radius={2500} />
         </Overlay>
 
         {/* Marcador em Poço */}
@@ -350,7 +446,7 @@ const MapComponent = () => {
 
         {/* Marcador em Pequi */}
         <Overlay checked name="Pequi Marker">
-          <Marker position={[-4.3106089, -41.8614255]} icon={customMarker}>
+          <Marker position={[-4.3231323, -41.8353668]} icon={customMarker}>
             <Tooltip direction="top" offset={[0, -25]} permanent>
               Pequi
             </Tooltip>
@@ -364,7 +460,7 @@ const MapComponent = () => {
           </Marker>
         </Overlay>
         <Overlay name="Pequi Circle">
-          <Circle center={[-4.3106089, -41.8614255]} radius={700} />
+          <Circle center={[-4.3231323, -41.8353668]} radius={500} />
         </Overlay>
 
         {/* Marcador em Açude da baixa */}
@@ -383,7 +479,367 @@ const MapComponent = () => {
           </Marker>
         </Overlay>
         <Overlay name="Acude Circle">
-          <Circle center={[-4.296958, -41.9079971]} radius={500} />
+          <Circle center={[-4.296958, -41.9079971]} radius={240} />
+        </Overlay>
+
+        {/* Marcador em Campinas */}
+        <Overlay checked name="Campinas Marker">
+          <Marker position={[-4.2939706, -41.9458836]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Campinas
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsCampinas}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Campinas Circle">
+          <Circle center={[-4.2939706, -41.9458836]} radius={300} />
+        </Overlay>
+
+        {/* Marcador em Olho D'àgua dos João Domingos */}
+        <Overlay checked name="ODJD Marker">
+          <Marker position={[-4.303907, -41.986142]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Olho D'àgua do João Domingos
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsODJD}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="ODJD Circle">
+          <Circle center={[-4.303907, -41.986142]} radius={200} />
+        </Overlay>
+
+        {/* Marcador em AngicalI */}
+        <Overlay checked name="AngicalI Marker">
+          <Marker position={[-4.31896, -41.8488529]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Angical I
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsAngicalI}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="AngicalI Circle">
+          <Circle center={[-4.31896, -41.8488529]} radius={300} />
+        </Overlay>
+
+        {/* Marcador em Olho AngicalII */}
+        <Overlay checked name="AngicalII Marker">
+          <Marker position={[-4.307134, -41.860386]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Angical II
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsAngicalII}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="AngicalII Circle">
+          <Circle center={[-4.307134, -41.860386]} radius={300} />
+        </Overlay>
+
+        {/* Marcador em Angical III */}
+        <Overlay checked name="AngiacalIII Marker">
+          <Marker position={[-4.308549, -41.882444]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Angical III
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsAngicalIII}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="AngiacalIII Circle">
+          <Circle center={[-4.308549, -41.882444]} radius={300} />
+        </Overlay>
+
+        {/* Marcador em Assentamento São Luiz */}
+        <Overlay checked name="AssentamentoSL Marker">
+          <Marker position={[-4.322522, -41.889977]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Assentamento São Luiz
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsAssentamentoSãoLuiz}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="AssentamentoSL Circle">
+          <Circle center={[-4.322522, -41.889977]} radius={250} />
+        </Overlay>
+
+        {/* Marcador em Quebradas */}
+        <Overlay checked name="Quebradas Marker">
+          <Marker position={[-4.326705, -41.902615]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Quebradas
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsQuebradas}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Quebradas Circle">
+          <Circle center={[-4.326705, -41.902615]} radius={250} />
+        </Overlay>
+
+        {/* Marcador em Vereda */}
+        <Overlay checked name="Vereda Marker">
+          <Marker position={[-4.3814574, -41.9114499]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Veredas do Zezinho
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsVereda}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Vereda Circle">
+          <Circle center={[-4.3814574, -41.9114499]} radius={900} />
+        </Overlay>
+
+        {/* Marcador em Currais Novos */}
+        <Overlay checked name="Currrais Marker">
+          <Marker position={[-4.2061292, -41.8884622]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Currais Novos
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsCurrais}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Currrais Circle">
+          <Circle center={[-4.2061292, -41.8884622]} radius={300} />
+        </Overlay>
+
+        {/* Marcador em Satisfeito */}
+        <Overlay checked name="Satisfeito Marker">
+          <Marker position={[-4.1926529, -41.8929095]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Satisfeito
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsSatisfeito}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Satisfeito Circle">
+          <Circle center={[-4.1926529, -41.8929095]} radius={300} />
+        </Overlay>
+
+        {/* Marcador em Cortada */}
+        <Overlay checked name="Cortada Marker">
+          <Marker position={[-4.196865, -41.9174]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Cortada
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsCortada}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Cortada Circle">
+          <Circle center={[-4.196865, -41.9174]} radius={300} />
+        </Overlay>
+
+        {/* Marcador em Matões */}
+        <Overlay checked name="Matões Marker">
+          <Marker position={[-4.264137, -41.917859]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Matões
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsMatoes}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Matões Circle">
+          <Circle center={[-4.264137, -41.917859]} radius={150} />
+        </Overlay>
+
+        {/* Marcador em Umburana */}
+        <Overlay checked name="Umburana Marker">
+          <Marker position={[-4.337132, -41.940236]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Umburana
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsUmburana}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Umburana Circle">
+          <Circle center={[-4.337132, -41.940236]} radius={150} />
+        </Overlay>
+
+        {/* Marcador em Saco */}
+        <Overlay checked name="Saco dos Dionísios Marker">
+          <Marker position={[-4.274249, -41.850994]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Saco dos Dionísios
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsSacoD}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Saco dos Dionísios Circle">
+          <Circle center={[-4.274249, -41.850994]} radius={150} />
+        </Overlay>
+
+        {/* Marcador em Carnaubas */}
+        <Overlay checked name="Carnaubas Marker">
+          <Marker position={[-4.347447, -41.9793944]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Carnaubas
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsCarnaubas}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Carnaubas Circle">
+          <Circle center={[-4.347447, -41.9793944]} radius={150} />
+        </Overlay>
+
+        {/* Marcador em Bela Vista */}
+        <Overlay checked name="Bela Vista Marker">
+          <Marker position={[-4.3492736, -41.9537482]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Bela Vista
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsBelaVista}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Bela Vista Circle">
+          <Circle center={[-4.3492736, -41.9537482]} radius={150} />
+        </Overlay>
+
+         {/* Marcador em Várzea */}
+         <Overlay checked name="Várzea Marker">
+          <Marker position={[-4.3998498, -41.8740778]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Várzea
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsVarzea}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Várzea Circle">
+          <Circle center={[-4.3998498, -41.8740778]} radius={150} />
+        </Overlay>
+        {/* Marcador em Várzea I */}
+        <Overlay checked name="Várzea I Marker">
+          <Marker position={[-4.400015, -41.8733458]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Várzea I
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsVarzeaI}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Várzea I Circle">
+          <Circle center={[-4.400015, -41.8733458]} radius={150} />
+        </Overlay>
+
+         {/* Marcador em Várzea I */}
+         <Overlay checked name="Malhadinha Marker">
+          <Marker position={[-4.366158, -41.829651]} icon={customMarker}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Malhadinha
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
+              <VereadoresSlider
+                searchTerm={searchTerm}
+                setSearchTerm={setSearchTerm}
+                localDetails={localDetailsMalhadinha}
+              />
+            </Popup>
+          </Marker>
+        </Overlay>
+        <Overlay name="Malhadinha Circle">
+          <Circle center={[-4.366158, -41.829651]} radius={150} />
         </Overlay>
       </LayersControl>
     </MapContainer>
