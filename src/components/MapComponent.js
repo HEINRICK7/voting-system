@@ -7,6 +7,7 @@ import {
   Popup,
   Circle,
   LayersControl,
+  Tooltip, // Importar Tooltip
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
@@ -271,9 +272,13 @@ const MapComponent = () => {
         </Overlay>
 
         {/* Marcador em Furnas */}
+        {/* Marcador em Furnas */}
         <Overlay checked name="Furnas Marker">
           <Marker position={[-4.2712, -41.8821]} icon={customMarker}>
-            <Popup style={{width: '100vw', height: '80vh'}}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Furnas
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
               <VereadoresSlider
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
@@ -289,7 +294,10 @@ const MapComponent = () => {
         {/* Marcador em Poço */}
         <Overlay checked name="Poco Marker">
           <Marker position={[-4.2389795, -41.9471199]} icon={customMarker}>
-            <Popup style={{width: '100vw', height: '80vh'}}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Poço
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
               <VereadoresSlider
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
@@ -305,7 +313,10 @@ const MapComponent = () => {
         {/* Marcador em Caiçara */}
         <Overlay checked name="Caiçara Marker">
           <Marker position={[-4.234357, -41.854398]} icon={customMarker}>
-            <Popup style={{width: '100vw', height: '80vh'}}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Caiçara
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
               <VereadoresSlider
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
@@ -317,10 +328,14 @@ const MapComponent = () => {
         <Overlay name="Caiçara Circle">
           <Circle center={[-4.234357, -41.854398]} radius={200} />
         </Overlay>
+
         {/* Marcador em São José */}
         <Overlay checked name="São José Marker">
           <Marker position={[-4.2226195, -41.9096409]} icon={customMarker}>
-            <Popup style={{width: '100vw', height: '80vh'}}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              São José
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
               <VereadoresSlider
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
@@ -332,10 +347,14 @@ const MapComponent = () => {
         <Overlay name="São José Circle">
           <Circle center={[-4.2226195, -41.9096409]} radius={1000} />
         </Overlay>
+
         {/* Marcador em Pequi */}
         <Overlay checked name="Pequi Marker">
           <Marker position={[-4.3106089, -41.8614255]} icon={customMarker}>
-            <Popup style={{width: '100vw', height: '80vh'}}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Pequi
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
               <VereadoresSlider
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
@@ -347,10 +366,14 @@ const MapComponent = () => {
         <Overlay name="Pequi Circle">
           <Circle center={[-4.3106089, -41.8614255]} radius={700} />
         </Overlay>
+
         {/* Marcador em Açude da baixa */}
         <Overlay checked name="Acude Marker">
           <Marker position={[-4.296958, -41.9079971]} icon={customMarker}>
-            <Popup style={{width: '100vw', height: '80vh'}}>
+            <Tooltip direction="top" offset={[0, -25]} permanent>
+              Açude da Baixa
+            </Tooltip>
+            <Popup style={{ width: "100vw", height: "80vh" }}>
               <VereadoresSlider
                 searchTerm={searchTerm}
                 setSearchTerm={setSearchTerm}
