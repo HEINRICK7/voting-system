@@ -1,42 +1,42 @@
 // src/data/localDetailsData.js
 
 export const localDetailsFurnas = {
-  endereco: "FURNAS S/N, ZONA RURAL",
+  endereco: "Furnas",
   local: "ESCOLA ESTADUAL RURAL",
   zona: 11,
   secoes: [103, 118, 158, 230],
 };
 
 export const localDetailsPoco = {
-  endereco: "POÇO S/N, ZONA RURAL",
+  endereco: "Poço",
   local: "ESCOLA MUNICIPAL NOSSA SENHORA DA ASSUNÇÃO",
   zona: 11,
   secoes: [194],
 };
 
 export const localDetailsCaicara = {
-  endereco: "CAIÇARA S/N, ZONA RURAL",
+  endereco: "Caiçara",
   local: "-",
   zona: 11,
   secoes: [],
 };
 
 export const localDetailsSaoJose = {
-  endereco: "SÃO JOSÉ",
+  endereco: "São José",
   local: "ESCOLA MUNICIPAL ADERSON ALVES FERREIRA",
   zona: 11,
   secoes: [104, 154],
 };
 
 export const localDetailsPequi = {
-  endereco: "PEQUI S/N, ZONA RURAL",
+  endereco: "Pequi",
   local: "ESCOLA MUNICIPAL HERMINIO A. SILVA",
   zona: 11,
   secoes: [142, 237],
 };
 
 export const localDetailsAcude = {
-  endereco: "AÇUDE DA BAIXA",
+  endereco: "Açude da Baixa",
   local: "ESCOLA MUNICIPAL VICENTE ALVES FERREIRA",
   zona: 11,
   secoes: [161, 248],

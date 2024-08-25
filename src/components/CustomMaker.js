@@ -3,7 +3,8 @@ import React from "react";
 import { Marker, Tooltip, Circle } from "react-leaflet";
 import L from "leaflet";
 
-const CustomMarker = ({ position, tooltipText, onClick, radius }) => {
+const CustomMarker = ({ position, tooltipText, onClick, radius, votes }) => {
+
   const customMarkerIcon = new L.Icon({
     iconUrl: require("leaflet/dist/images/marker-icon.png"),
     iconRetinaUrl: require("leaflet/dist/images/marker-icon-2x.png"),
@@ -24,7 +25,7 @@ const CustomMarker = ({ position, tooltipText, onClick, radius }) => {
         }}
       >
         <Tooltip direction="top" offset={[0, -25]} permanent>
-          {tooltipText}
+          {tooltipText} - {votes} votos
         </Tooltip>
       </Marker>
       <Circle center={position} radius={radius} />
