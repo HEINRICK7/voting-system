@@ -1,6 +1,6 @@
 // src/components/MapComponent.js
 import React, { useState, useEffect } from "react";
-import { Modal, notification } from "antd";
+import { Avatar, Modal, notification } from "antd";
 import CandidatoSlider from "./CandidatoSlider";
 import CustomMap from "./CustomMap";
 import candidateData from "../data/candidatos.json";
@@ -8,7 +8,7 @@ import api from "../service";
 
 const MapComponent = () => {
   const [geoJsonData, setGeoJsonData] = useState(null);
-  const [locationVotes, setLocationVotes] = useState({}); 
+  const [locationVotes, setLocationVotes] = useState({});
   const [searchTerm, setSearchTerm] = useState("");
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [localDetails, setLocalDetails] = useState(null);
@@ -18,6 +18,7 @@ const MapComponent = () => {
   const [updateVotes, setUpdateVotes] = useState(false);
   const [votesUpdated, setVotesUpdated] = useState(false);
   const [hotAreas, setHotAreas] = useState([]);
+  const [isFinishModalVisible, setIsFinishModalVisible] = useState(false); // Novo estado para o modal de finalizar votação
 
   useEffect(() => {
     fetch("/data/PI_Municipios_2022_final.geojson")
@@ -54,7 +55,7 @@ const MapComponent = () => {
   // UseEffect para monitorar mudanças em chosenVereador e chamar submitVote quando não for null
   useEffect(() => {
     if (chosenVereador && chosenPrefeito) {
-      submitVote();
+      setIsFinishModalVisible(true); // Abre o modal de finalizar votação quando os votos estão completos
     }
   }, [chosenVereador]);
 
@@ -84,10 +85,16 @@ const MapComponent = () => {
     audio.play();
 
     if (voteType === "Prefeito") {
-      setChosenPrefeito({ nome: candidate.nome, numero: candidate.numero });
+      const prefeitoData = candidateData.prefeitos.find(
+        (p) => p.numero === candidate.numero
+      );
+      setChosenPrefeito(prefeitoData);
       setCurrentVoteType("Vereador");
     } else if (voteType === "Vereador") {
-      setChosenVereador({ nome: candidate.nome, numero: candidate.numero });
+      const vereadorData = candidateData.vereadores.find(
+        (v) => v.numero === candidate.numero
+      );
+      setChosenVereador(vereadorData);
     }
   };
 
@@ -98,7 +105,7 @@ const MapComponent = () => {
         candidatoVereador: chosenVereador,
         local: localDetails.endereco,
       });
-  
+
       if (response.status === 201) {
         notification.success({
           message: "Voto Computado",
@@ -115,7 +122,9 @@ const MapComponent = () => {
         });
       }
     } catch (error) {
-      const errorMessage = error.response?.data?.message || "Ocorreu um erro ao tentar computar seu voto.";
+      const errorMessage =
+        error.response?.data?.message ||
+        "Ocorreu um erro ao tentar computar seu voto.";
       notification.error({
         message: errorMessage || "Erro ao Computar Voto",
       });
@@ -136,6 +145,17 @@ const MapComponent = () => {
 
   const handleCancel = () => {
     setIsModalVisible(false);
+    resetVotingProcess();
+  };
+
+  // Funções para o modal de finalizar votação
+  const handleFinishVoteOk = () => {
+    setIsFinishModalVisible(false);
+    submitVote();
+  };
+
+  const handleFinishVoteCancel = () => {
+    setIsFinishModalVisible(false);
     resetVotingProcess();
   };
 
@@ -168,6 +188,84 @@ const MapComponent = () => {
             localDetails={localDetails}
           />
         )}
+      </Modal>
+      <Modal
+        title="Finalizar Votação"
+        visible={isFinishModalVisible}
+        onOk={handleFinishVoteOk}
+        onCancel={handleFinishVoteCancel}
+        okText="Confirmar"
+        cancelText="Cancelar"
+      >
+        <p>Tem certeza de que deseja finalizar a votação?</p>
+        <div>
+          <h3>Prefeito:</h3>
+          {chosenPrefeito && (
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                marginBottom: 10,
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  flexDirection: "row",
+                  justifyContent: "space-around",
+                  width: "100%",
+                }}
+              >
+                <Avatar
+                  size={100}
+                  shape="square"
+                  src={chosenPrefeito.imagem}
+                  alt={chosenPrefeito.nome}
+                  style={{border: '2px solid gery', padding: 2}}
+                />
+                <div style={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}>
+                  <span style={{ fontSize: "1.5rem" }}>{chosenPrefeito.nome}</span>
+                  <span style={{ fontSize: "3rem" }}>{chosenPrefeito.numero}</span>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+        <div>
+          <h3>Vereador:</h3>
+          {chosenVereador && (
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  flexDirection: "row",
+                  justifyContent: "space-around",
+                  width: "100%",
+                }}
+              >
+                <Avatar
+                  size={100}
+                  shape="square"
+                  src={chosenVereador.imagem}
+                  alt={chosenVereador.nome}
+                  style={{border: '2px solid grey', padding: 2}}
+                />
+                <div style={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}>
+                  <p style={{ fontSize: "1.5rem" }}>{chosenVereador.nome}</p>
+                  <span style={{ fontSize: "3rem" }}>{chosenVereador.numero}</span>
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
       </Modal>
     </>
   );
