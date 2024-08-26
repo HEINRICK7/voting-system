@@ -115,51 +115,12 @@ const MapComponent = () => {
         });
       }
     } catch (error) {
-      console.error("Erro ao enviar voto:", error);
+      const errorMessage = error.response?.data?.message || "Ocorreu um erro ao tentar computar seu voto.";
       notification.error({
-        message: "Erro ao Computar Voto",
-        description: "Ocorreu um erro ao tentar computar seu voto.",
+        message: errorMessage || "Erro ao Computar Voto",
       });
     }
   };
-  
-  const processHotAreas = (voteData) => {
-    const areaVotes = {};
-  
-    // Processa os votos para prefeitos
-    voteData.votedPrefeitos.forEach(vote => {
-      const { location, nome } = vote;
-      if (!areaVotes[location]) {
-        areaVotes[location] = { prefeito: {}, vereador: {} };
-      }
-      if (!areaVotes[location].prefeito[nome]) {
-        areaVotes[location].prefeito[nome] = 0;
-      }
-      areaVotes[location].prefeito[nome] += vote.votes;
-    });
-  
-    // Processa os votos para vereadores
-    voteData.votedVereadores.forEach(vote => {
-      const { location, nome } = vote;
-      if (!areaVotes[location]) {
-        areaVotes[location] = { prefeito: {}, vereador: {} };
-      }
-      if (!areaVotes[location].vereador[nome]) {
-        areaVotes[location].vereador[nome] = 0;
-      }
-      areaVotes[location].vereador[nome] += vote.votes;
-    });
-  
-    // Identifica o candidato mais votado em cada localidade
-    const hotAreas = Object.entries(areaVotes).map(([location, votes]) => {
-      const topPrefeito = Object.keys(votes.prefeito).reduce((a, b) => votes.prefeito[a] > votes.prefeito[b] ? a : b);
-      const topVereador = Object.keys(votes.vereador).reduce((a, b) => votes.vereador[a] > votes.vereador[b] ? a : b);
-      return { location, topPrefeito, topVereador };
-    });
-  
-    return hotAreas;
-  };
-  
 
   const resetVotingProcess = () => {
     setChosenPrefeito(null);
@@ -184,7 +145,6 @@ const MapComponent = () => {
         geoJsonData={geoJsonData}
         onMarkerClick={showModal}
         locationVotes={locationVotes}
-        hotAreas={hotAreas}
       />
       <Modal
         title="Escolha seu Candidato"
