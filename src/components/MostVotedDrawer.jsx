@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Drawer, Button, List, Statistic, Divider, Avatar } from "antd";
 import api from "../service";
 import candidateData from "../data/candidatos.json"; // Importe seu JSON

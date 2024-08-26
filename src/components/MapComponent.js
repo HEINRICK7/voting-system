@@ -4,12 +4,11 @@ import { Modal, notification } from "antd";
 import CandidatoSlider from "./CandidatoSlider";
 import CustomMap from "./CustomMap";
 import candidateData from "../data/candidatos.json";
-import MostVotedDrawer from "./MostVotedDrawer";
 import api from "../service";
 
 const MapComponent = () => {
   const [geoJsonData, setGeoJsonData] = useState(null);
-  const [locationVotes, setLocationVotes] = useState({}); // Armazena votos por localidade
+  const [locationVotes, setLocationVotes] = useState({}); 
   const [searchTerm, setSearchTerm] = useState("");
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [localDetails, setLocalDetails] = useState(null);
@@ -18,6 +17,7 @@ const MapComponent = () => {
   const [chosenVereador, setChosenVereador] = useState(null);
   const [updateVotes, setUpdateVotes] = useState(false);
   const [votesUpdated, setVotesUpdated] = useState(false);
+  const [hotAreas, setHotAreas] = useState([]);
 
   useEffect(() => {
     fetch("/data/PI_Municipios_2022_final.geojson")
@@ -107,7 +107,7 @@ const MapComponent = () => {
         resetVotingProcess();
         setUpdateVotes((prev) => !prev);
         setVotesUpdated((prev) => !prev);
-        console.log("votesUpdated foi alterado para:", !votesUpdated); // Adicione este log
+        console.log("votesUpdated foi alterado para:", !votesUpdated);
       } else {
         notification.error({
           message: "Erro ao Computar Voto",
@@ -123,6 +123,43 @@ const MapComponent = () => {
     }
   };
   
+  const processHotAreas = (voteData) => {
+    const areaVotes = {};
+  
+    // Processa os votos para prefeitos
+    voteData.votedPrefeitos.forEach(vote => {
+      const { location, nome } = vote;
+      if (!areaVotes[location]) {
+        areaVotes[location] = { prefeito: {}, vereador: {} };
+      }
+      if (!areaVotes[location].prefeito[nome]) {
+        areaVotes[location].prefeito[nome] = 0;
+      }
+      areaVotes[location].prefeito[nome] += vote.votes;
+    });
+  
+    // Processa os votos para vereadores
+    voteData.votedVereadores.forEach(vote => {
+      const { location, nome } = vote;
+      if (!areaVotes[location]) {
+        areaVotes[location] = { prefeito: {}, vereador: {} };
+      }
+      if (!areaVotes[location].vereador[nome]) {
+        areaVotes[location].vereador[nome] = 0;
+      }
+      areaVotes[location].vereador[nome] += vote.votes;
+    });
+  
+    // Identifica o candidato mais votado em cada localidade
+    const hotAreas = Object.entries(areaVotes).map(([location, votes]) => {
+      const topPrefeito = Object.keys(votes.prefeito).reduce((a, b) => votes.prefeito[a] > votes.prefeito[b] ? a : b);
+      const topVereador = Object.keys(votes.vereador).reduce((a, b) => votes.vereador[a] > votes.vereador[b] ? a : b);
+      return { location, topPrefeito, topVereador };
+    });
+  
+    return hotAreas;
+  };
+  
 
   const resetVotingProcess = () => {
     setChosenPrefeito(null);
@@ -133,12 +170,12 @@ const MapComponent = () => {
 
   const handleOk = () => {
     setIsModalVisible(false);
-    setCurrentVoteType("Prefeito");
+    resetVotingProcess();
   };
 
   const handleCancel = () => {
     setIsModalVisible(false);
-    setCurrentVoteType("Prefeito");
+    resetVotingProcess();
   };
 
   return (
@@ -147,8 +184,8 @@ const MapComponent = () => {
         geoJsonData={geoJsonData}
         onMarkerClick={showModal}
         locationVotes={locationVotes}
+        hotAreas={hotAreas}
       />
-      <MostVotedDrawer key={votesUpdated ? "true" : "false"} votesUpdated={votesUpdated} />
       <Modal
         title="Escolha seu Candidato"
         visible={isModalVisible}

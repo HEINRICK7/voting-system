@@ -1,9 +1,8 @@
-// src/components/CustomMarker.js
 import React from "react";
 import { Marker, Tooltip, Circle } from "react-leaflet";
 import L from "leaflet";
 
-const CustomMarker = ({ position, tooltipText, onClick, radius, votes }) => {
+const CustomMarker = ({ position, tooltipText, onClick, radius, votes, circleColor }) => {
 
   const customMarkerIcon = new L.Icon({
     iconUrl: require("leaflet/dist/images/marker-icon.png"),
@@ -15,6 +14,11 @@ const CustomMarker = ({ position, tooltipText, onClick, radius, votes }) => {
     shadowSize: [31, 31],
   });
 
+  const handleTooltipClick = (e) => {
+    e.stopPropagation(); // Impede que o clique acione outros eventos, como o clique no marcador
+    onClick(); // Chama a função onClick passada como prop para abrir o modal
+  };
+
   return (
     <>
       <Marker
@@ -24,11 +28,13 @@ const CustomMarker = ({ position, tooltipText, onClick, radius, votes }) => {
           click: onClick,
         }}
       >
-        <Tooltip direction="top" offset={[0, -25]} permanent>
-          {tooltipText} - {votes} votos
+        <Tooltip direction="top" offset={[0, -25]} permanent interactive>
+          <div onClick={handleTooltipClick} style={{ cursor: "pointer" }}>
+            {tooltipText} - {votes} votos
+          </div>
         </Tooltip>
       </Marker>
-      <Circle center={position} radius={radius} />
+      <Circle center={position} radius={radius} pathOptions={{ color: circleColor, fillColor: circleColor, fillOpacity: 0.2 }}/>
     </>
   );
 };

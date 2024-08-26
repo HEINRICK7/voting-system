@@ -175,4 +175,42 @@ export const localDetailsMalhadinha = {
   secoes: [],
 };
 
+export const localDetailsPiripiri = {
+  endereco: "Piripiri",
+  local: "PIRIPIRI",
+  zona: 11,
+  secoes: [],
+};
+export const localDetailsCaldeirao = {
+  endereco: "Caldeirão",
+  local: "CALDEIRÃO",
+  zona: 11,
+  secoes: [],
+};
+
+export const localDetailsSertaoDentro = {
+  endereco: "Sertão de Dentro",
+  local: "SERTÃO DE DENTRO",
+  zona: 11,
+  secoes: [],
+};
+export const localDetailsFormosa = {
+  endereco: "Formosa",
+  local: "FORMOSA",
+  zona: 11,
+  secoes: [],
+};
+export const localDetailsOlhoGrande = {
+  endereco: "Olho D'água Grande",
+  local: "OLHO D'ÁGUA GRANDE",
+  zona: 11,
+  secoes: [],
+};
+export const localDetailsSucuarana = {
+  endereco: "Suçuarana",
+  local: "SUÇUARANA",
+  zona: 11,
+  secoes: [],
+};
+
 // Adicione mais localidades se necessário
